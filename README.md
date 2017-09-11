@@ -43,7 +43,7 @@
      * 기존 디자인에 동시성 절차를 추가함으로써 성능 개선
      * 더 열심히 일한다면?
  * 교훈
-   * 프로세싱을 나눠는데는 다양한 방법이 있다.
+   * 프로세싱을 나누는 다양한 방법이 있다.
    * 이것에 바로 동시성 디자인.
    * 일단 쪼개고 나면, 병렬성이 약해지며 이런 경우 적절한 작업을 하기 쉽다.
 
@@ -55,7 +55,7 @@
 ### Goroutine
  * 함수로서 다른 goroutine과 동일한 주소 공간에서 독립적으로 실행되는 특징을 가진다.
  * Goroutine은 thread가 아니다
-   * thrad랑 비슷하지만 훨씬 가볍다!
+   * thread랑 비슷하지만 훨씬 가볍다!
  * thread에 multiplex (1개 thread에 여러 goroutine이 실행)
  * goroutine이 block되는 경우 해당 thread도 block되지만 다른 goroutine은 block되지 않는다.
 
